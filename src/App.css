@@ -1,20 +1,129 @@
-.App {
-  width: 100vw;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.App > div {
-  display: grid;
-  place-items: center;
+html {
+  scroll-behavior: smooth;
 }
-.App > div > img {
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ecf0f3;
+}
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+.d_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.f_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.btn_shadow {
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow:hover {
+  background: #269F7D;
+  color: white;
+  transform: translateY(-10px);
+}
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+.row,
+.left,
+.right {
   width: 50%;
 }
-.App > div > h2 {
-  margin: 0;
+.top {
+  margin-top: 80px;
 }
-.App > div > a {
-  margin: 0;
-  text-decoration: none;
+.mtop {
+  margin-top: 40px;
+}
+.heading {
+  margin: 50px 0 50px 0;
+}
+.heading h4 {
+  color: #269F7D;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.heading h1 {
+  font-size: 60px;
+  color: #3c3e41;
+}
+h1 {
+  color: #3c3e41;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px;
+}
+p {
+  color: #3c3e41;
+}
+.text-center {
+  text-align: center;
+}
+.primary_color {
+  color: #269F7D;
+}
+textarea,
+input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #e2e8ec;
+  margin-bottom: 20px;
+}
+/*----------Footer---------*/
+footer {
+  margin: 0 0 3% 0;
+}
+/*----------Footer---------*/
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .left,
+  .right {
+    width: 100%;
+  }
 }

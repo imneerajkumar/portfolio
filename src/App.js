@@ -1,15 +1,23 @@
-import './App.css';
+import React from "react"
+import Header from "./component/Head/Header"
+import Home from "./component/Home/Home"
+import Portfolio from "./component/Portfolio/Portfolio"
+import Resume from "./component/Resume/Resume"
+import Contact from "./component/Contact/Contact"
+import Footer from "./component/Footer/Footer"
+import "./App.css"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <div>
-        <img src={process.env.PUBLIC_URL + '/4.png'} alt='Work in progress' />
-        <h2>Site in progress.......</h2>
-        <a href='https://drive.google.com/file/d/1bOZHyg9wx_-4SZbefZke1FBfufLFNn9k/view?usp=sharing'>Check Resume Here</a>
-      </div>
-    </div>
-  );
+    <>
+      <Header />
+      <Home />
+      <Resume />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
