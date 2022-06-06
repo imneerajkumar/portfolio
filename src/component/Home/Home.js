@@ -1,9 +1,15 @@
 import React from "react"
 import "./Home.css"
 import hero from "../pic/hero.jpg"
-import { Typewriter } from "react-simple-typewriter"
+import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 const Home = () => {
+  const words = [" Coder.", " Developer.", " Programmer."]
+  const { text } = useTypewriter({
+    words,
+    loop: 0, 
+  });
+
   return (
     <>
       <section className='hero' id='home'>
@@ -13,31 +19,33 @@ const Home = () => {
               Hi, I’m <span>Neeraj Kumar</span>
             </h1>
             <h2>
-              a
-              <span>
-                <Typewriter words={[" Coder.", " Developer.", " Programmer."]} loop cursor cursorStyle='|' typeSpeed={60} deleteSpeed={50} delaySpeed={1000} />
-              </span>
+              a<span>{text}</span><Cursor />
             </h2>
-            <p>I am a Full Stack Web Developer (MERN) and App Developer (React-Native). I aspire to work in a professional environment where I can have ample opportunities to use my skills and to contribute towards the growth of the organization.</p>
+            <p>A Full Stack Web Developer and App Developer having an experience of building Web applications with  Reactjs / Nodejs and some other libraries and frameworks and Cross Platform Mobile Apps With React Native.</p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>CONNECT WITH ME</h4>
                 <div className='button'>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-linkedin-in'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-github'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i class='fab fa-twitter'></i>
-                  </button>
+                  <a href="https://linkedin.com/in/imneerajkumar" >
+                    <button className='btn_shadow'>
+                      <i className='fab fa-linkedin-in'></i>
+                    </button>
+                  </a>
+                  <a href="https://github.com/imneerajkumar">
+                    <button className='btn_shadow'>                   
+                      <i className='fab fa-github'></i>
+                    </button>
+                  </a>
+                  <a href="https://instagram.com/imneeraj_kumar">
+                    <button className='btn_shadow'>                 
+                      <i className='fab fa-instagram'></i>
+                    </button>
+                  </a>
+                  <a href="https://twitter.com/nijjukr">
+                    <button className='btn_shadow'>        
+                      <i className='fab fa-twitter'></i>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

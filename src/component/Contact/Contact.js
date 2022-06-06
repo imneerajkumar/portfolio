@@ -1,18 +1,20 @@
 import React, { useState } from "react"
 import contact1 from "./contact3.avif"
+import { send } from 'emailjs-com';
 import "./Contact.css"
 
 const Contact = () => {
-  const [data, setData] = useState({
+  const initial = {
     fullname: "",
     phone: "",
     email: "",
     subject: "",
-    message: "",})
+    message: ""
+  }
+  const [data, setData] = useState(initial)
 
   const InputEvent = (event) => {
     const { name, value } = event.target
-
     setData((preVal) => {
       return {
         ...preVal,
@@ -23,14 +25,18 @@ const Contact = () => {
 
   const formSubmit = (event) => {
     event.preventDefault()
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    )
+    send(
+      'service_iwtfelg',
+      'template_am2iv1l',
+       data,
+      'Mdfl_6hnFH7sZMqrd'
+    ).then((response) => {
+        alert('SUCCESS!', response.status, response.text);
+        setData(initial)
+      })
+      .catch((err) => {
+        alert('FAILED...', err);      
+      });
   }
   return (
     <>
@@ -55,21 +61,18 @@ const Contact = () => {
                   <p>Email: imneerajkumar23@gmail.com</p> <br />
                   <span>CONNECT WITH ME</span>
                   <div className='button f_flex'>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
-                    </button>
-                    <button className='btn_shadow'>
+                    <a href="https://linkedin.com/in/imneerajkumar" className='btn_shadow'>
+                      <i className='fab fa-linkedin-in'></i>
+                    </a>
+                    <a href="https://github.com/imneerajkumar" className='btn_shadow'>
+                      <i className='fab fa-github'></i>
+                    </a>
+                    <a href="https://instagram.com/imneeraj_kumar" className='btn_shadow'>
                       <i className='fab fa-instagram'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i class='fab fa-linkedin-in'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i class='fab fa-github'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i class='fab fa-twitter'></i>
-                    </button>
+                    </a>
+                    <a href="https://twitter.com/nijjukr" className='btn_shadow'>
+                      <i className='fab fa-twitter'></i>
+                    </a>
                   </div>
                 </div>
               </div>

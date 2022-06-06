@@ -37,9 +37,10 @@
   font-size: 15px;
   margin: 30px 0 30px 0;
 }
-.hero_btn button {
+.hero_btn a {
   margin-right: 30px;
 }
+
 .hero_btn i {
   font-size: 20px;
 }

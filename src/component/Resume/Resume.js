@@ -29,7 +29,7 @@ const Resume = () => {
             </div>
             <div className='left'>
               <div className='heading'>
-                <h1>Job Experience</h1>
+                <h1>Experiences</h1>
               </div>
 
               <div className='content'>

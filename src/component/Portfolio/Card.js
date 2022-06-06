@@ -24,7 +24,7 @@ const Card = (props) => {
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title}</h2>
           <a href='#popup' className='arrow' onClick={toggleModal}>
-            <i class='fas fa-arrow-right'></i>
+            <i className='fas fa-arrow-right'></i>
           </a>
         </div>
       </div>
@@ -47,11 +47,11 @@ const Card = (props) => {
                   LIKE THIS <i class='far fa-thumbs-up'></i>
                 </button>
                 <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
+                  VIEW PROJECT<i className='fas fa-chevron-right'></i>
                 </button>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
-                <i class='fas fa-times'></i>
+                <i className='fas fa-times'></i>
               </button>
             </div>
           </div>
