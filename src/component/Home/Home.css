@@ -38,7 +38,7 @@
   margin: 30px 0 30px 0;
 }
 .hero_btn a {
-  margin-right: 30px;
+  margin-right: 10px;
 }
 
 .hero_btn i {
@@ -63,6 +63,7 @@
   height: 60vh;
   width: 100%;
   margin-top: 10%;
+  margin-right: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,13 +79,12 @@
     width: 100%;
     margin-left: 20px;
   }
-
   .hero .f_flex {
-    flex-direction: column;
+    /* flex-direction: column; */
     flex-direction: column-reverse;
   }
   .hero .right_img {
-    width: 100%;
+    width: 90%;
     height: 60vh;
   }
 }

@@ -9,7 +9,7 @@ const Resume = () => {
       <section className='Resume' id='background'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>Education and Experiences</h4>
+            <h4>EDUCATION and EXPERIENCES</h4>
             <h1>Background</h1>
           </div>
 

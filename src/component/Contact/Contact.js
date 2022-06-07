@@ -43,8 +43,8 @@ const Contact = () => {
       <section className='Contact' id='contact'>
         <div className='container top'>
           <div className='heading text-center'>
-            <h4>CONTACT</h4>
-            <h1>Contact With Me</h1>
+            <h4>CONNECT WITH ME</h4>
+            <h1>Contact</h1>
           </div>
 
           <div className='content d_flex'>
@@ -55,10 +55,11 @@ const Contact = () => {
                 </div>
                 <div className='details'>
                   <h1>Neeraj Kumar</h1>
-                  <p>Developer and Programmer</p>
                   <p>I am available for hiring. Connect with me via and call in to my account.</p> <br />
                   <p>Phone: +91 9650788185</p>
-                  <p>Email: imneerajkumar23@gmail.com</p> <br />
+                  <p>Email: imneerajkumar23@gmail.com</p>
+                  <p>Address: D-13/109, Tomar Colony, Burari, Delhi 110084</p>
+                  <br />
                   <span>CONNECT WITH ME</span>
                   <div className='button f_flex'>
                     <a href="https://linkedin.com/in/imneerajkumar" className='btn_shadow'>

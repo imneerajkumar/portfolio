@@ -119,6 +119,10 @@ footer {
 }
 /*----------Footer---------*/
 @media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
   .grid {
     grid-template-columns: repeat(2, 1fr);
   }
