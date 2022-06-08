@@ -120,7 +120,7 @@ footer {
 /*----------Footer---------*/
 @media (max-width: 768px) {
   .container {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
   }
   .grid {

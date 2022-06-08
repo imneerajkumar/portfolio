@@ -36,26 +36,13 @@ const Home = () => {
                       <i className='fab fa-github'></i>
                     </button>
                   </a>
-                  <a href="https://instagram.com/imneeraj_kumar">
-                    <button className='btn_shadow'>                 
-                      <i className='fab fa-instagram'></i>
-                    </button>
-                  </a>
-                  <a href="https://twitter.com/nijjukr">
-                    <button className='btn_shadow'>        
-                      <i className='fab fa-twitter'></i>
+                  <a href="https://drive.google.com/file/d/1bOZHyg9wx_-4SZbefZke1FBfufLFNn9k/view?usp=sharing" target='_blank' rel='noreferrer'>
+                    <button className='btn_shadow'>  
+                      <i className="fas fa-file"></i>
+                      {"    "}Resume
                     </button>
                   </a>
                 </div>
-              </div>
-              <div className='col_1'>
-                <h4>CHECK RESUME</h4>
-                <a href="https://drive.google.com/file/d/1bOZHyg9wx_-4SZbefZke1FBfufLFNn9k/view?usp=sharing" target='_blank' rel='noreferrer'>
-                  <button className='btn_shadow'>  
-                    <i className="fas fa-file"></i>
-                    {"    "}Resume
-                  </button>
-                </a>
               </div>
             </div>
           </div>

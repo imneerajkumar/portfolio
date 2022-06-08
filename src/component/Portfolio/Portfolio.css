@@ -99,9 +99,6 @@ body.active-modal {
   border-radius: 10px;
 }
 
-.modal-img img {
-  height: 450px; 
-}
 .modal-text {
   padding: 0 100px 0 50px;
 }
@@ -158,9 +155,6 @@ body.active-modal {
 
   .modal .modal-img {
     margin: 50px 0 50px 0;
-  }
-  .modal-img img {
-    height: 350px;
   }
   .modal-content {
     flex-direction: column;
