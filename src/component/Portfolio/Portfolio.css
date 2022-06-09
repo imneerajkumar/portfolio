@@ -98,7 +98,9 @@ body.active-modal {
   padding: 50px;
   border-radius: 10px;
 }
-
+.modal-img img {
+  height: 450px;
+}
 .modal-text {
   padding: 0 100px 0 50px;
 }
@@ -117,6 +119,7 @@ body.active-modal {
 }
 .modal-text button i {
   margin-left: 10px;
+  font-size: 20px;
 }
 .modal-text button.close-modal {
   position: absolute;
@@ -163,4 +166,21 @@ body.active-modal {
   .modal .left {
     padding: 0;
   }
+  .Portfolio .box {
+    position: relative;
+    width: 300px;
+  }
+  .modal-img img {
+    height: 400px;
+  }
 }
+@media (max-width: 425px) {
+  .Portfolio .box {
+    position: relative;
+    width: 350px;
+  }
+  .modal-img img {
+    height: 300px;
+  }
+}
+

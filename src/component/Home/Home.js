@@ -4,7 +4,7 @@ import hero from "../pic/hero.jpg"
 import { useTypewriter, Cursor } from "react-simple-typewriter"
 
 const Home = () => {
-  const words = [" Coder.", " Developer.", " Programmer."]
+  const words = [" Coder.", " Developer."]
   const { text } = useTypewriter({
     words,
     loop: 0, 

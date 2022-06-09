@@ -45,12 +45,12 @@ const Card = (props) => {
               <div className='button f_flex mtop'>
                 <a href={props.code}>
                   <button className='btn_shadow'>
-                    PROJECT CODE <i className='fas fa-code'></i>
+                    <i className='fas fa-code'></i>
                   </button>
                 </a>
                 <a href={props.demo}> 
                   <button className='btn_shadow'>
-                    LIVE DEMO<i className='fas fa-play-circle'></i>
+                    <i className='fas fa-play-circle'></i>
                   </button>
                 </a>
               </div>

@@ -11,16 +11,6 @@ export const PinnedProjects = [
   },
   {
     id: 2,
-    category: "WEB Development",
-    title: "Edule - eLearning Platform",
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
-    description: "E-Learning Platform with blogs, courses, live meetings and recorded lectures. Instructor dashboard also included.",
-    techs: "Reactjs, MongoDB, Expressjs, Nodejs, Firebase, Redux, CSS, Bootstrap, jitsimeet",
-    code: "https://github.com/imneerajkumar/edtech",
-    demo: "https://edulelearning.netlify.app/"
-  },
-  {
-    id: 3,
     category: "APP Development",
     title: "LetsPost",
     image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
@@ -28,6 +18,16 @@ export const PinnedProjects = [
     techs: "React-Native, Expo, Firebase, Redux",
     code: "https://github.com/imneerajkumar/letspost",
     demo: "https://expo.dev/@imneerajkumar/Letspost"
+  },
+  {
+    id: 3,
+    category: "WEB Development",
+    title: "Edule - eLearning Platform",
+    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+    description: "E-Learning Platform with blogs, courses, live meetings and recorded lectures. Instructor dashboard also included.",
+    techs: "Reactjs, MongoDB, Expressjs, Nodejs, Firebase, Redux, CSS, Bootstrap, jitsimeet",
+    code: "https://github.com/imneerajkumar/edtech",
+    demo: "https://edulelearning.netlify.app/"
   },
 ]
 

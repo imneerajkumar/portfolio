@@ -43,7 +43,7 @@ const ResumeApi = [
     id: 6,
     category: "experience",
     year: "Training Course, Udemy(Aug,2021 - Oct,2021)",
-    title: "React-naive App Developent",
+    title: "React-Native App Developent",
     desc: "Learned cross platform APP Development using React-native, expo. Learned more about Redux and Firebase.",
     rate: "2 months",
   },
