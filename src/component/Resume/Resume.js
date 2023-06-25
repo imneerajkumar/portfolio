@@ -23,6 +23,8 @@ const Resume = () => {
                 {ResumeApi.map((val, id) => {
                   if (val.category === "education") {
                     return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                  } else {
+                    return <></>
                   }
                 })}
               </div>
@@ -36,6 +38,8 @@ const Resume = () => {
                 {ResumeApi.map((val, index) => {
                   if (val.category === "experience") {
                     return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                  } else {
+                    return <></>
                   }
                 })}
               </div>
