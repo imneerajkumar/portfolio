@@ -1,45 +1,65 @@
-import React from "react"
-import "./Resume.css"
-import ResumeApi from "./ResumeApi"
-import Card from "./Card"
+import React from "react";
+import "./Resume.css";
+import ResumeApi from "./ResumeApi";
+import Card from "./Card";
 
 const Resume = () => {
   return (
     <>
-      <section className='Resume' id='background'>
-        <div className='container top'>
-          <div className='heading text-center'>
+      <section className="Resume" id="background">
+        <div className="container top">
+          <div className="heading text-center">
             <h4>EDUCATION and EXPERIENCES</h4>
             <h1>Background</h1>
           </div>
 
-          <div className='content-section mtop d_flex'>
-            <div className='left'>
-              <div className='heading'>
+          <div className="content-section mtop d_flex">
+            <div className="left">
+              <div className="heading">
                 <h1>Education Details</h1>
               </div>
 
-              <div className='content'>
+              <div className="content">
                 {ResumeApi.map((val, id) => {
                   if (val.category === "education") {
-                    return <Card key={id} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                    return (
+                      <Card
+                        key={id}
+                        title={val.title}
+                        year={val.year}
+                        rate={val.rate}
+                        desc={val.desc}
+                        details={val.details}
+                        isModal={val.isModal}
+                      />
+                    );
                   } else {
-                    return <></>
+                    return <></>;
                   }
                 })}
               </div>
             </div>
-            <div className='left'>
-              <div className='heading'>
+            <div className="left">
+              <div className="heading">
                 <h1>Experiences</h1>
               </div>
 
-              <div className='content'>
+              <div className="content">
                 {ResumeApi.map((val, index) => {
                   if (val.category === "experience") {
-                    return <Card key={index} title={val.title} year={val.year} rate={val.rate} desc={val.desc} />
+                    return (
+                      <Card
+                        key={index}
+                        title={val.title}
+                        year={val.year}
+                        rate={val.rate}
+                        desc={val.desc}
+                        details={val.details}
+                        isModal={val.isModal}
+                      />
+                    );
                   } else {
-                    return <></>
+                    return <></>;
                   }
                 })}
               </div>
@@ -48,7 +68,7 @@ const Resume = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

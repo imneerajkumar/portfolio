@@ -28,7 +28,7 @@
   text-transform: uppercase;
 }
 .Portfolio .category span {
-  color: #269F7D;
+  color: #269f7d;
   font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
@@ -38,7 +38,7 @@
   right: 30px;
   bottom: 11%;
   transform: rotate(-45deg);
-  color: #269F7D;
+  color: #269f7d;
   opacity: 0;
   transition: 0.5s;
 }
@@ -51,7 +51,7 @@
   padding-bottom: 30px;
 }
 .Portfolio .box:hover h2 {
-  color: #269F7D;
+  color: #269f7d;
 }
 .Portfolio .box:hover {
   color: black;
@@ -115,7 +115,7 @@ body.active-modal {
 }
 .modal-text button {
   margin-right: 20px;
-  color: #269F7D;
+  color: #269f7d;
 }
 .modal-text button i {
   margin-left: 10px;
@@ -173,6 +173,11 @@ body.active-modal {
   .modal-img img {
     height: 400px;
   }
+  .modal-text button.close-modal {
+    position: absolute;
+    top: -25px;
+    right: -35px;
+  }
 }
 @media (max-width: 425px) {
   .Portfolio .box {
@@ -183,4 +188,3 @@ body.active-modal {
     height: 300px;
   }
 }
-

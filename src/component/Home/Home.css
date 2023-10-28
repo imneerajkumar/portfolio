@@ -11,12 +11,12 @@
 }
 
 .hero h1 span {
-  color: #269F7D;
+  color: #269f7d;
 }
 .hero h2 {
   font-size: 50px;
   font-weight: bold;
-  color: #269F7D;
+  color: #269f7d;
 }
 .hero h2 span {
   color: black;
@@ -80,7 +80,6 @@
     margin-left: 20px;
   }
   .hero .f_flex {
-    /* flex-direction: column; */
     flex-direction: column-reverse;
   }
   .hero .right_img {

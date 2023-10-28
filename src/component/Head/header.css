@@ -1,9 +1,19 @@
 header {
-  height: 10vh;
-  line-height: 10vh;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0 30px;
 }
-header .container {
-  padding-top: 15px;
+header div {
+  height: 5rem;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
 }
 header ul li {
   margin-left: 30px;
@@ -15,7 +25,7 @@ header ul li a {
   letter-spacing: 1px;
 }
 header ul li a:hover {
-  color: #269F7D;
+  color: #269f7d;
 }
 .home-btn {
   padding: 18px 25px;
@@ -23,21 +33,21 @@ header ul li a:hover {
   transition: 0.3s all ease;
   cursor: pointer;
   height: fit-content;
-  color: #269F7D;
+  color: #269f7d;
 }
 .home-btn {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
 }
 .home-btn:hover {
-  background: #269F7D;
+  background: #269f7d;
   color: white;
 }
 .open {
   display: none;
 }
 .header.active {
-  height: 12vh;
+  height: 5rem;
   position: fixed;
   top: 0;
   z-index: 1000;
@@ -54,7 +64,8 @@ header ul li a:hover {
     position: absolute;
     display: block;
     list-style: none;
-    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     left: 0;
     top: 0;
     transition: all 0.5s ease-in-out;
@@ -75,9 +86,9 @@ header ul li a:hover {
   .close,
   .open {
     position: absolute;
-    top: 35px;
+    top: 30px;
     right: 20px;
-    color: #269F7D;
+    color: #269f7d;
     display: block;
     font-size: 25px;
     z-index: 999;
@@ -87,7 +98,7 @@ header ul li a:hover {
   }
   .close.home-btn {
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    color: #269F7D;
+    color: #269f7d;
     border-radius: 50%;
     padding: 0;
     width: 60px;
@@ -95,6 +106,6 @@ header ul li a:hover {
     line-height: 60px;
   }
   .header.active {
-    height: 10vh;
+    height: 5rem;
   }
 }
