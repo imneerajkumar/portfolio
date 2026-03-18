@@ -65,26 +65,26 @@ const Contact = () => {
                     <a
                       href="https://linkedin.com/in/imneerajkumar"
                       className="btn_shadow"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                     <a
                       href="https://github.com/imneerajkumar"
                       className="btn_shadow"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-github"></i>
                     </a>
                     <a
                       href="https://instagram.com/imneeraj_kumar"
                       className="btn_shadow"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="fab fa-instagram"></i>
-                    </a>
-                    <a
-                      href="https://twitter.com/nijjukr"
-                      className="btn_shadow"
-                    >
-                      <i className="fab fa-twitter"></i>
                     </a>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="input">
-                  <span>EMAIL </span>
+                  <span>EMAIL ID</span>
                   <input
                     type="email"
                     name="email"

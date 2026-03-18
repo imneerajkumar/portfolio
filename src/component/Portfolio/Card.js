@@ -23,9 +23,17 @@ const Card = (props) => {
         </div>
         <div className="title" onClick={toggleModal}>
           <h2>{props.title}</h2>
-          <a href="#popup" className="arrow" onClick={toggleModal}>
-            <i className="fas fa-arrow-right"></i>
-          </a>
+          {
+            // eslint-disable-next-line
+            <a
+              // eslint-disable-next-line
+              href="javascript:void(0)"
+              className="arrow"
+              onClick={toggleModal}
+            >
+              <i className="fas fa-arrow-right"></i>
+            </a>
+          }
         </div>
       </div>
 

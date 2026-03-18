@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Card from "./Card";
 import Footer from "../Footer/Footer";
-import { AllProjects } from "./Portfolio_data";
+import { AllProjects } from "../../static/data/Portfolio_data";
 import "./Portfolio.css";
 
 const Projects = (props) => {

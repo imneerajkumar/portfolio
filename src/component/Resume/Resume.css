@@ -13,6 +13,9 @@
   border: 1px solid #e3e9ed;
   background-color: #e3e9ed;
 }
+.Resume .rate {
+  margin: 10px 0;
+}
 .Resume .rate .btn_shadow {
   color: #269f7d;
   padding: 15px 15px;
@@ -49,7 +52,7 @@
   position: absolute;
   top: 16%;
   left: 0;
-  height: 118vh;
+  height: 67vh;
   width: 5px;
   background: #d9dee2;
   z-index: -2;
@@ -84,8 +87,8 @@
     flex-direction: column;
   }
   .Resume .left::after {
-    top: 14%;
-    height: 105vh;
+    top: 13%;
+    height: 125vh;
   }
 }
 .display-linebreak {

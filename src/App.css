@@ -52,7 +52,9 @@ button {
 }
 .btn_shadow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow:
+    4px 4px 8px #cbcbcb,
+    -4px -4px 8px #ffffff;
 }
 .btn_shadow:hover {
   background: #269f7d;
@@ -61,7 +63,9 @@ button {
 }
 .box_shodow {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow:
+    4px 4px 8px #cbcbcb,
+    -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
 .row,
@@ -70,10 +74,10 @@ button {
   width: 50%;
 }
 .top {
-  margin-top: 80px;
+  margin-top: 35px;
 }
 .mtop {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .heading {
   margin: 50px 0 50px 0;

@@ -58,9 +58,11 @@
 }
 .hero .right_img {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow:
+    4px 4px 8px #cbcbcb,
+    -4px -4px 8px #ffffff;
   border-radius: 10px;
-  height: 60vh;
+  height: 75%;
   width: 100%;
   margin-top: 10%;
   margin-right: 20px;

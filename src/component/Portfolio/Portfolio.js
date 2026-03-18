@@ -1,7 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
 import Card from "./Card";
-import { PinnedProjects } from "./Portfolio_data";
+import { PinnedProjects } from "../../static/data/Portfolio_data";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {

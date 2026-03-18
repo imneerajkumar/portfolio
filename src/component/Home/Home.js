@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.css";
-import hero from "../pic/hero.jpg";
+import hero from "../../static/images/hero.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const Home = () => {
-  const words = [" Coder.", " Developer."];
+  const words = [" Software Engineer.", " Full-Stack Developer."];
   const { text } = useTypewriter({
     words,
     loop: 0,
@@ -23,21 +23,32 @@ const Home = () => {
               <Cursor />
             </h2>
             <p>
-              A Full Stack Web Developer and App Developer having an experience
-              of building Web applications with Reactjs / Nodejs and some other
-              libraries and frameworks and Cross Platform Mobile Apps With React
-              Native.
+              Full Stack Developer with 2.5+ years of experience building
+              scalable web applications, APIs, automation systems, and
+              integrations. Proven ability to design efficient solutions,
+              optimize performance, and deliver reliable end-to-end systems
+              across the stack. Strong expertise in Node.js, React, and modern
+              web technologies, with a focus on clean architecture and
+              maintainable code.
             </p>
             <div className="hero_btn d_flex">
               <div className="col_1">
                 <h4>CONNECT WITH ME</h4>
                 <div className="button">
-                  <a href="https://linkedin.com/in/imneerajkumar">
+                  <a
+                    href="https://linkedin.com/in/imneerajkumar"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="btn_shadow">
                       <i className="fab fa-linkedin-in"></i>
                     </button>
                   </a>
-                  <a href="https://github.com/imneerajkumar">
+                  <a
+                    href="https://github.com/imneerajkumar"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <button className="btn_shadow">
                       <i className="fab fa-github"></i>
                     </button>

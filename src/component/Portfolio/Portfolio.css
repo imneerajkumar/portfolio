@@ -94,7 +94,9 @@ body.active-modal {
   max-width: 85%;
   min-width: 60%;
   z-index: 9999;
-  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  box-shadow:
+    4px 4px 8px #cbcbcb,
+    -4px -4px 8px #ffffff;
   padding: 50px;
   border-radius: 10px;
 }
@@ -169,6 +171,7 @@ body.active-modal {
   .Portfolio .box {
     position: relative;
     width: 300px;
+    margin: 0 auto;
   }
   .modal-img img {
     height: 400px;
@@ -183,6 +186,7 @@ body.active-modal {
   .Portfolio .box {
     position: relative;
     width: 350px;
+    margin: 0 auto;
   }
   .modal-img img {
     height: 300px;
