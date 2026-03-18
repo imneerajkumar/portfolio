@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import contact1 from "./contact3.avif";
+import contact1 from "../../static/images/contact3.avif";
 import { send } from "emailjs-com";
 import "./Contact.css";
 

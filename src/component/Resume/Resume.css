@@ -87,8 +87,8 @@
     flex-direction: column;
   }
   .Resume .left::after {
-    top: 13%;
-    height: 125vh;
+    top: 15%;
+    height: 68vh;
   }
 }
 .display-linebreak {
